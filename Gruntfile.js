@@ -11,13 +11,18 @@ module.exports = function(grunt) {
         src: 'tests/*.js',
         dest: 'build/<%= pkg.name %>.min.js'
       }
+    },
+    qunit: {
+      all: ['tests.html']
     }
   });
 
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-qunit');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('test', ['qunit']);
 
 };
