@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-	<testsuite name="global" errors="0" failures="0" tests="1" time="0.01">
-		<testcase classname="global" name="Test case 1" assertions="1" time="0.01">
+	<testsuite name="global" errors="0" failures="0" tests="2" time="0.02">
+		<testcase classname="global" name="Test case 1" assertions="2" time="0.01">
+		</testcase>
+		<testcase classname="global" name="Test case 2" assertions="1" time="0.01">
 		</testcase>
 	</testsuite>
 </testsuites>
