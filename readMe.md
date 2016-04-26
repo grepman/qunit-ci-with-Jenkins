@@ -69,12 +69,11 @@ Your System Configuration for Jenkins is Done now!!
 
 
 
-These are the images which say the above words
+### These are the images which say the above words
 
-
-
-
-
+<img src = "https://cdn.rawgit.com/grepman/qunit-ci-with-Jenkins/master/images/1.png" />
+<img src = "https://cdn.rawgit.com/grepman/qunit-ci-with-Jenkins/master/images/2.png" />
+<img src = "https://cdn.rawgit.com/grepman/qunit-ci-with-Jenkins/master/images/3.png" />
 
 
 
